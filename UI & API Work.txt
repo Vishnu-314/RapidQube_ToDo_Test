@@ -1,0 +1,34 @@
+Case Study: Implementation of UI & API for Todo Application
+
+Overview:
+I have implemented a Todo Application with a user interface and backend APIs to create, edit, delete and view the tasks. 
+The UI has a login and registration screen, a navigation bar, a homepage with a form to add new tasks and a list of existing tasks with sorting options. 
+The backend has a user and todo schema for the database and APIs for user authentication, CRUD operations on tasks using middleware for authentication and authorization.
+
+UI Features:
+The UI has the following features:
+
+Login and Registration screen: Users can log in to the application using their credentials or register if they are new to the app.
+Logout Functionality: Once the user is logged in, a logout option is shown on the top of the page that allows them to log out from the application.
+Nav Bar: Users can navigate to different screens using the navigation bar.
+Homepage: Users are directed to the homepage after logging in. They can fill in the form to create new tasks with fields for title, task, tag, due date and priority level.
+Add Todo: Once the user fills in the form and clicks on the "Add Todo" button, the task is added to the database.
+Todo List: The homepage also displays a list of all the tasks fetched from the backend. Each task is displayed with its priority level and due date.
+Edit and Delete: Users can edit and delete a task by clicking on the respective icons. Clicking on the "Edit" icon opens a popup that allows users to update the task. Clicking on the "Delete" icon removes the task from the list.
+Sorting: There are two buttons for sorting the tasks based on priority and date. Clicking on the buttons will display the tasks in a sorted manner.
+Logout: Once the user logs out, they will be directed back to the sign-in page, and they cannot access any other pages until they log in again.
+
+
+Backend Features:
+The backend has the following features:
+
+User and Todo schema: The database has separate schemas for users and tasks.
+Authentication and Authorization: I have used middleware for authentication and authorization using bcrypt and JWT tokens to ensure that only authorized users can access the application.
+Login and Signup APIs: I have created APIs for users to log in and sign up for the application.
+CRUD APIs: I have implemented APIs for CRUD operations on tasks, i.e., add, get, post, put and delete.
+Conclusion:
+In conclusion, I have successfully implemented a Todo Application with UI and backend APIs for creating, editing, deleting and viewing tasks. The UI provides a simple and intuitive interface for users to manage their tasks, and the backend ensures secure and authenticated access to the application.
+
+
+Future Scope:
+In the future, I can enhance the application by adding features such as task reminders, task sharing, and user profiles. I can also implement a mobile application version of the Todo App for better accessibility.
